@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay Stories | Beautiful Stays, Beautiful Stories</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #28352c;
+            background: #faf8f2;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 22px 8%;
+            background: white;
+        }
+        .logo {
+            font-size: 27px;
+            font-weight: bold;
+            color: #345846;
+        }
+        nav a {
+            margin-left: 22px;
+            color: #345846;
+            text-decoration: none;
+        }
+        .hero {
+            text-align: center;
+            padding: 110px 20px;
+            background: linear-gradient(90deg, #173c2b99, #173c2b55),
+            url('https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=1800&q=85');
+            background-position: center;
+            background-size: cover;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+        .hero p {
+            font-size: 19px;
+            line-height: 1.7;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 25px;
+            background: #d9b98b;
+            color: #26372c;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        section {
+            padding: 55px 8%;
+            text-align: center;
+        }
+        .cards {
+            display: flex;
+            gap: 24px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            max-width: 270px;
+            flex: 1;
+        }
+        footer {
+            padding: 25px;
+            background: #263f30;
+            color: white;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            header { flex-direction: column; gap: 15px; }
+            nav a { margin: 0 7px; }
+            .hero h1 { font-size: 34px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Stay Stories</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+```
+<div class="hero">
+    <h1>Every Stay Has a Story</h1>
+    <p>Beautiful holiday homes deserve beautiful stories.<br>
+    We help bring stays to life through creative visual storytelling.</p>
+    <a class="button" href="#services">Explore Our Services</a>
+</div>
+
+<section id="about">
+    <h2>Welcome to Stay Stories</h2>
+    <p>We create inspiring visual content that helps holiday homes
+    stand out and makes travellers dream about their next getaway.</p>
+</section>
+
+<section id="services">
+    <h2>What We Do</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Property Videos</h3>
+            <p>Showcase the beauty and character of your holiday home.</p>
+        </div>
+        <div class="card">
+            <h3>Promotional Content</h3>
+            <p>Create engaging visuals to promote your accommodation.</p>
+        </div>
+        <div class="card">
+            <h3>Visual Storytelling</h3>
+            <p>Turn the special details of a stay into a memorable story.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Let's Tell Your Story</h2>
+    <p>Interested in creating promotional content for your property?</p>
+    <p>Contact us to discuss your project.</p>
+</section>
+
+<footer>
+    <p>© 2026 Stay Stories. All rights reserved.</p>
+</footer>
+```
+
+</body>
+</html>
